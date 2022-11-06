@@ -5,7 +5,7 @@ from generator import colors
 c.init()
 lister = []
 
-
+##rep
 def rainbow_text(text):
     for x in text:
         lister.append(colors[randint(1, 8)])
